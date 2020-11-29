@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: darksalmon;
+}
+.banner{
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+
+.banner__imagen{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.banner__title{
+    position: absolute;
+    z-index: 10;
+    color: floralwhite;
+    width: 100%;
+    text-align: center;
+    line-height: 350px;
+}
