@@ -1,9 +1,10 @@
 *{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
     padding: 0;
 }
 .header{
-    background-color: darksalmon;
+    background-color: black;
 }
 .banner{
     width: 100%;
@@ -20,8 +21,36 @@
 .banner__title{
     position: absolute;
     z-index: 10;
-    color: floralwhite;
+    color: whitesmoke;
     width: 100%;
     text-align: center;
     line-height: 350px;
+}
+
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+
+.main-menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.main-title,.menu-container{
+    width: 50%;
+    color: whitesmoke;
+}
+
+.main-menu__item > a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.main-menu__item > a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+
 }
