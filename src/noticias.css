@@ -1,0 +1,7 @@
+.news{
+    background-color: cadetblue;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    text-align: center;
+}
