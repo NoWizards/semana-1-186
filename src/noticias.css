@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -94,4 +95,12 @@
     font-weight: 200;
     line-height: 20px;
     letter-spacing: 2px;
+
+.news{
+    background-color: cadetblue;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    text-align: center;
+
 }
